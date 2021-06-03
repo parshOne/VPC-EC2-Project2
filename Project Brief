@@ -1,0 +1,5 @@
+I have used files 
+ -> Ec2.tf : In this i have code for two aws instances , one attached to private subnet and one public subnet.
+ -> Providers.tf : This is just providing access key and secret key.
+ -> Vpc.tf : In this file i have created vpc for the above two instance whith a partiular CIDR 
+ ->
