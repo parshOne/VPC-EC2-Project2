@@ -6,4 +6,9 @@ I have used files
      Nat gateway and elastic eip is also given to public subnet Ec2 instance.
      
  -> Subnet.tf : For creating a public subnet and private subnet.
- -> routetable : 
+ -> routetable :  In this we have created route table attached to internet gateway , associated to bothy public and private subnet .
+ 
+ -> Here the private subnet Ec2 instacne will connect ot Nat gateway for accessing internet so there is a security given to that.
+
+
+Any issues regarding project , contact me : praveshnegi2111@gmail.com
