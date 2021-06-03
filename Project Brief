@@ -1,5 +1,9 @@
 I have used files 
  -> Ec2.tf : In this i have code for two aws instances , one attached to private subnet and one public subnet.
  -> Providers.tf : This is just providing access key and secret key.
- -> Vpc.tf : In this file i have created vpc for the above two instance whith a partiular CIDR 
- ->
+ -> Vpc.tf : In this file i have created vpc for the above two instance whith a partiular CIDR , security group with
+     inbound and outbound rules ( ie. tcp, http ).
+     Nat gateway and elastic eip is also given to public subnet Ec2 instance.
+     
+ -> Subnet.tf : For creating a public subnet and private subnet.
+ -> routetable : 
